@@ -19,7 +19,7 @@ timezone: Europe/Berlin
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Yangtx's Blog                   # the main title
+title: Yangtx's Blogs                   # the main title
 
 tagline: Passion for Tech   # it will display as the sub-title
 
@@ -80,7 +80,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: assets/images/avatar.jpg
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -197,3 +197,5 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+math: true
