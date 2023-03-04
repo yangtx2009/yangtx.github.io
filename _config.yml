@@ -199,4 +199,4 @@ jekyll-archives:
     category: /categories/:name/
 
 math: true
-html: /assets/html
+machine-learning: /posts/machine-learning
