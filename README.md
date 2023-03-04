@@ -32,7 +32,12 @@ $ bundle
 
 ## Usage
 
-Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation) and [Getting Start][page].
+
+Preview the site locally by running:
+```
+$ bundle exec jekyll s
+```
 
 ## License
 
@@ -43,3 +48,4 @@ This work is published under [MIT][mit] License.
 [use-template]: https://github.com/cotes2020/chirpy-starter/generate
 [CD]: https://en.wikipedia.org/wiki/Continuous_deployment
 [mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+[page]: https://chirpy.cotes.page/posts/getting-started/
