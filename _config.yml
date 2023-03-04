@@ -27,7 +27,7 @@ description: >-                        # used by seo meta and the atom feed
   I record my experience and understanding in machine learning and autonomous driving in this blog.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://yangtx2009.github.io'
 
 github:
   username: yangtx2009             # change to your github username
