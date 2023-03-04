@@ -162,7 +162,7 @@ defaults:
     values:
       swcache: true
   - scope:
-      path: assets/js/dist
+      path: /assets/js/dist
     values:
       swcache: true
 
@@ -199,3 +199,4 @@ jekyll-archives:
     category: /categories/:name/
 
 math: true
+html: /assets/html
