@@ -1,6 +1,3 @@
 [submodule "assets/lib"]
 	path = assets/lib
 	url = https://github.com/cotes2020/chirpy-static-assets.git
-[submodule "_posts/machine-learning"]
-	path = _posts/machine-learning
-	url = https://github.com/yangtx2009/machine-learning.git
