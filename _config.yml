@@ -113,6 +113,9 @@ assets:
     # only works if `assets.self_host.enabled` is 'true'
     env:          # [development|production]
 
+sources:
+  - _posts\machine-learning\ComputerVision\Text2Image\images
+
 pwa:
   enabled: true   # the option for PWA feature
 
@@ -198,6 +201,15 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
-math: true
 include:
-  - /_posts/machine-learning/images
+  - /_posts/machine-learning/ComputerVision
+
+asciidoctor:
+  attributes:
+  - stem
+
+jekyll-copyr:
+  enabled: true
+  tasks:
+    - from: "_posts/machine-learning/ComputerVision/images/."
+      to: "./_site/assets/img/papers/"
