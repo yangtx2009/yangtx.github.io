@@ -4,3 +4,4 @@
 [submodule "_posts/machine-learning"]
 	path = _posts/machine-learning
 	url = https://github.com/yangtx2009/machine-learning.git
+	branch = main
